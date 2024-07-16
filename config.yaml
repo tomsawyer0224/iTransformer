@@ -1,0 +1,21 @@
+general_config: # used in generating dataset and configuring the model
+    lookback_len: 200
+    pred_length: 12 #[12, 24, 36, 48]
+dataset_config:
+    data_file: './datasets/ETDataset/ETT-small/ETTm1.csv'
+model_config:
+    #num_variates: int # get from dataset
+    #lookback_len: int
+    depth: 6
+    dim: 256
+    num_tokens_per_variate: 1
+    #pred_length:
+    dim_head: 64
+    heads: 8
+    attn_dropout: 0.0
+    ff_mult: 4
+    ff_dropout: 0.0
+    num_mem_tokens: 4
+    flash_attn: True
+training_config:
+    default_root_dir: './results'

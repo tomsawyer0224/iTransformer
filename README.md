@@ -14,6 +14,7 @@
 > See the "./results" directory for more details.
 ![image](https://github.com/user-attachments/assets/e9532e7d-a6c8-4bb1-ac0a-5c0047f105c6) \
 ![image](https://github.com/user-attachments/assets/3bfbcea9-f019-4adf-9e58-5b4d81ea02f2) \
+![image](https://github.com/user-attachments/assets/8857c09f-e9eb-4036-b18b-f934c395bb77)
 # Based on:
 https://arxiv.org/abs/2310.06625
 https://github.com/thuml/iTransformer

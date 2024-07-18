@@ -1,6 +1,6 @@
 # This is a personal project, for educational purposes only!
 # About this project:
-1. iTransformer or Inverted Transformer is a Time Series Forcasting model. The model uses a different embedding method. It embeds each series independently to the variate token.
+1. **iTransformer** or **Inverted Transformer** is a Time Series Forcasting model. The model uses a different embedding method. It embeds each series independently to the variate token.
 2. This project is a small version converted to the Lightning model.
 # How to use:
 1. Clone this repo, then cd to iTransformer.

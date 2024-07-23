@@ -4,11 +4,12 @@ iTransformer is a Time Series Forcasting model. The model uses a different embed
 - This is a personal project, for educational purposes only!
 - This project is a small version converted to the Lightning model.
 # Experiment
-    1. Training
-        - Model size: ~6.4M params.
-        - Dataset: [Electricity Transformer Dataset](datasets/ETDataset/ETT-small/ETTm1.csv).
-        - Number of epochs: 10.
-        - Platform: Google Colab free (with T4 GPU).
+1. **Training**
+    - Model size: ~6.4M params.
+    - Dataset: [Electricity Transformer Dataset](datasets/ETDataset/ETT-small/ETTm1.csv).
+    - Number of epochs: 10.
+    - Platform: Google Colab free (with T4 GPU).
+2. **Results**
 # How to use
 1. Clone this repo, then cd to iTransformer.
 2. Install the requirements: pip install -q -r requirements.txt.

@@ -12,6 +12,8 @@ iTransformer is a Time Series Forcasting model. The model uses a different embed
 2. **Results**
 - The performance is acceptable when predicting the features: HUFL, HULL, LUFL, MUFL, MULL.
 - The performance is not good when predicting the features: LULL, OT.
+    ![image](results/tests/batch_2/prediction_2/prediction_2_HULL_12.png) \
+    ![image](results/tests/batch_2/prediction_2/prediction_2_LULL_12.png)
 # How to use
 1. Clone this repo, cd into iTransformer.
 2. Install the requirements: pip install -q -r requirements.txt.

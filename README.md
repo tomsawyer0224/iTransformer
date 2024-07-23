@@ -10,8 +10,8 @@ iTransformer is a Time Series Forcasting model. The model uses a different embed
     - Number of epochs: 10.
     - Platform: Google Colab free (with T4 GPU).
 2. **Results**
-- The performance is quite good when predicting on 
-
+- The performance is acceptable when predicting the features: HUFL, HULL, LUFL, MUFL, MULL.
+- The performance is not good when predicting the features: LULL, OT.
 # How to use
 1. Clone this repo, cd into iTransformer.
 2. Install the requirements: pip install -q -r requirements.txt.

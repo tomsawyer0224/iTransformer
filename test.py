@@ -8,28 +8,28 @@ import utils
 
 batch_size = 3
 num_variates = 2
-time_series_names = [f'price {i}' for i in range(num_variates)]
+time_series_names = [f"price {i}" for i in range(num_variates)]
 pred_length = (12,)
 lookback_len = 96
 
-time_series = torch.randn(size = (batch_size, lookback_len, num_variates))
+time_series = torch.randn(size=(batch_size, lookback_len, num_variates))
 next_ground_truths = {
-    k: torch.rand(size = (batch_size, k, num_variates)) for k in pred_length
+    k: torch.rand(size=(batch_size, k, num_variates)) for k in pred_length
 }
 next_predictions = {
-    k: torch.rand(size = (batch_size, k, num_variates)) for k in pred_length
+    k: torch.rand(size=(batch_size, k, num_variates)) for k in pred_length
 }
 
 utils.plot_results(
-    time_series = time_series, 
-    next_ground_truths = next_ground_truths, 
-    next_predictions = next_predictions, 
-    time_series_names = time_series_names, 
-    save_dir = './test_results'
+    time_series=time_series,
+    next_ground_truths=next_ground_truths,
+    next_predictions=next_predictions,
+    time_series_names=time_series_names,
+    save_dir="./test_results",
 )
 
 
-'''
+"""
 data_file = './datasets/AAPL.csv'
 lookback_len = 3
 pred_length = (4,5)
@@ -106,4 +106,4 @@ time_series = x #torch.randn(2, lookback_len, 6)  # (batch, lookback len, variat
 preds = model(time_series, y)
 #print([preds[k].dtype for k in preds.keys()])
 print(preds)
-'''
+"""
